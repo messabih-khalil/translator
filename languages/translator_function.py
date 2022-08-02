@@ -14,7 +14,7 @@ dictionary = {
 # function to translate the letters 
 
 def detector_lang(word):
-    print(f'word : {word}')
+    
     txt=str(word)
     # ***** this line to detect language
     detector = langid.classify(txt)
