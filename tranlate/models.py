@@ -14,4 +14,4 @@ class Trans(models.Model):
          db_table='data'
 
     def __str__(self):
-        return self.Noun
+        return self.noun
