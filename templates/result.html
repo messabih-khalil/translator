@@ -12,8 +12,16 @@
   </head>
   <body>
     the Transliteration : 
+    <br>
+    <br>
     {% for data in results%}
-      
+      noun : {{data.noun}}
+      <br>
+      date of birth : {{data.date_of_birth}}
+      <br>
+      address : {{data.address}}
+      <br>
+      nationality : {{data.nationality}}
     {% endfor %}
   </body>
 </html>
